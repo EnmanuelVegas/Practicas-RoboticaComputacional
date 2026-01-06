@@ -29,9 +29,9 @@ def muestra_robot(O, obj):
   plt.ion()
   fig = plt.gcf()
   fig.clf()
-  size = 9
-  plt.xlim(-3, 7)
-  plt.ylim(-3, 9)
+  size = 12
+  plt.xlim(-size, size)
+  plt.ylim(-size, size)
   T = [np.array(o).T.tolist() for o in O]
   for i, t in enumerate(T):
     plt.plot(t[0], t[1], '-o', color=cs.hsv_to_rgb(i / float(len(T)), 1, 1))
