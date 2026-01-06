@@ -6,7 +6,7 @@
 
 ---
 
-## Prácticas de la Asignatura
+## 📚 Prácticas de la Asignatura
 
 ### Práctica 1 - Cinemática Directa
 Cálculo de la posición y orientación del efector final del robot en función de las características de las articulaciones. Se aplica el método de Denavit-Hartenberg.
