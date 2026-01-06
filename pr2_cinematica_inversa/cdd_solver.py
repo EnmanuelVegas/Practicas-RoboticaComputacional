@@ -75,27 +75,19 @@ def cin_dir(th,a):
 # ******************************************************************************
 # Cálculo de la cinemática inversa de forma iterativa por el método CCD
 
-# valores articulares arbitrarios para la cinemática directa inicial
 ### EJERCICIO 1
-# isPrismatic = [False, False, True, False]
-# a =  [1., 4., 1., 1.]
-# th = [10*pi/180, 25*pi/180, 0., 0.]
-# qMin = np.array([0*pi/180,   -45*pi/180, 1, -90*pi/180]) 
-# qMax = np.array([180*pi/180,  45*pi/180, 4,  90*pi/180])
-
-### EJERCICIO 2
 isPrismatic = [False, True, False, False]
 a =  [2., 1., 3., 1.]
 th = [15*pi/180, 0., 25*pi/180, 0.]
 qMin = np.array([-90*pi/180, 0, -25*pi/180, -90*pi/180]) 
 qMax = np.array([ 90*pi/180, 3,  65*pi/180,  90*pi/180])
 
-### EJERCICIO 3
-# isPrismatic = [False, True, False, False]
-# a =  [2., 1., 3., 1.]
-# th = [15*pi/180, 0., 25*pi/180, 0.]
-# qMin = np.array([-90*pi/180, 0, -25*pi/180, -90*pi/180]) 
-# qMax = np.array([ 90*pi/180, 3,  65*pi/180,  90*pi/180])
+### EJEMPLO 2
+# isPrismatic = [False, False, True, False]
+# a =  [1., 4., 1., 1.]
+# th = [10*pi/180, 25*pi/180, 0., 0.]
+# qMin = np.array([0*pi/180,   -45*pi/180, 1, -90*pi/180]) 
+# qMax = np.array([180*pi/180,  45*pi/180, 4,  90*pi/180])
 
 L = sum(a) # variable para representación gráfica
 EPSILON = .01
